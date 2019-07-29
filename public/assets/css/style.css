@@ -1,0 +1,21 @@
+img {
+    max-width: 200px;
+}
+
+#header {
+    background-color: #3333ff;
+    color: whitesmoke;
+    text-shadow: 5px 5px 15px #000000;
+    font-family: 'Passion One', cursive;
+    box-shadow: 5px 5px 15px #000000; 
+}
+
+body {
+    background-image: url(../images/checkerfloor.png);
+    background-repeat: repeat;
+}
+
+.menu {
+    background-color: snow;
+    box-shadow: 5px 5px 15px #000000;
+}

@@ -1,0 +1,49 @@
+<div class="container my-3 p-3 rounded" id="header">
+    <h1 class="display-3 mx-auto my-0 p-1 text-center">Eat Da Burger!</h1>
+    <img class="mx-auto my-0 p-0 d-block" id="burger-image" src="/assets/images/ramen_burger.jpg" alt="burger">    
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-5 ml-3 rounded menu">
+            <h3>Burgers on Da Menu!</h3>
+            <ul>
+                {{#each burgers}}
+                {{#unless devoured}}
+                    <li class="p-2">
+                        <strong>{{burger_name}}</strong>
+                        <button class="devour-burger btn btn-danger" data-id="{{id}}" data-eaten="true">
+                            EAT ME!
+                        </button>
+                    </li>
+                {{/unless}}
+                {{/each}}
+            </ul>
+        </div>
+        <div class="col"></div>
+        <div class="col-5 mr-3 rounded menu">
+            <h3>Burgers Dat Have Been Eaten!</h3>
+            <ul>
+                {{#each burgers}}
+                {{#if devoured}}
+                    <li class="p-2">
+                        <strong>{{burger_name}}</strong>
+                    </li>
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 mx-auto my-3 pb-3 rounded menu">
+            <h2>Add a Burger to the Menu!</h2>
+            <form class="create-form">
+                <div class="form-group">
+                    <label for="new-burger">Burger Name:</label>
+                    <input type="text" class="form-control" id="new-burger" name="burger_name">
+                </div>
+                <button class="btn btn-primary" type="submit">Add Burger</button>
+            </form>
+        </div>
+    </div>
+</div>
