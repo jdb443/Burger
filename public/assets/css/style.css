@@ -19,3 +19,20 @@ body {
     background-color: snow;
     box-shadow: 5px 5px 15px #000000;
 }
+
+#footer {
+    background-color: #9BCBEB;
+    color: whitesmoke;
+    text-shadow: 5px 5px 15px #000000;
+    font-family: 'Passion One', cursive;
+    box-shadow: 5px 5px 15px #000000;
+}
+
+.ts-none {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-shadow: none;
+}
+
+a {
+    color: red;
+}
