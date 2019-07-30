@@ -2,7 +2,6 @@
 Create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
 
 ## Demo
-
 Enter or pick the burger you want and then eat it! [Here](https://jdb443-burger-app.herokuapp.com/) is the App!
 <img src="public/assets/images/Burger-App.png">
 
@@ -28,5 +27,4 @@ Enter or pick the burger you want and then eat it! [Here](https://jdb443-burger-
 - mysql - Version 2.17.1
 
 ### Deployed App
-
 https://jdb443-burger-app.herokuapp.com/
