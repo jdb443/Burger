@@ -1,6 +1,6 @@
 <div class="container my-3 p-3 rounded" id="header">
     <h1 class="display-3 mx-auto my-0 p-1 text-center">Eat Da Burger!</h1>
-    <img class="mx-auto my-0 p-0 d-block" id="burger-image" src="/assets/images/ramen_burger.jpg" alt="burger">    
+    <img class="mx-auto my-0 p-0 d-block" id="burger-image" src="/assets/images/ramen_burger.jpg" alt="burger">
 </div>
 
 <div class="container">
@@ -10,25 +10,25 @@
             <ul>
                 {{#each burgers}}
                 {{#unless devoured}}
-                    <li class="p-2">
-                        <strong>{{burger_name}}</strong>
-                        <button class="devour-burger btn btn-danger" data-id="{{id}}" data-eaten="true">
-                            EAT ME!
-                        </button>
-                    </li>
+                <li class="p-2">
+                    <strong>{{burger_name}}</strong>
+                    <button class="devour-burger btn btn-danger" data-id="{{id}}" data-eaten="true">
+                        EAT ME!
+                    </button>
+                </li>
                 {{/unless}}
                 {{/each}}
             </ul>
         </div>
         <div class="col"></div>
         <div class="col-5 mr-3 rounded menu">
-            <h3>Burgers Dat Have Been Eaten!</h3>
+            <h3>Burgers that Have Been Eaten!</h3>
             <ul>
                 {{#each burgers}}
                 {{#if devoured}}
-                    <li class="p-2">
-                        <strong>{{burger_name}}</strong>
-                    </li>
+                <li class="p-2">
+                    <strong>{{burger_name}}</strong>
+                </li>
                 {{/if}}
                 {{/each}}
             </ul>
@@ -46,7 +46,7 @@
             </form>
         </div>
     </div>
-    
+
     <!-- Footer -->
     <div id="footer" class="page-footer font-small rounded pt-4">
 
@@ -56,47 +56,48 @@
             <!-- Grid row -->
             <div class="row">
 
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
 
-                <!-- Content -->
-                <h5 class="text-uppercase">Eat-Da-Burger App</h5>
-                <p class="ts-none">Thank you for coming to Eat-Da-Burger. Eat-Da-Burger is a burger menu app. Thank you come again!</p>
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Eat-Da-Burger App</h5>
+                    <p class="ts-none">Thank you for coming to Eat-Da-Burger. Eat-Da-Burger is a burger menu app. Thank
+                        you come again!</p>
 
-            </div>
-            <!-- Grid column -->
+                </div>
+                <!-- Grid column -->
 
-            <hr class="clearfix w-100 d-md-none pb-3">
+                <hr class="clearfix w-100 d-md-none pb-3">
 
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
 
-                <!-- Links -->
-                <h5 class="text-uppercase">Portfolio</h5>
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Portfolio</h5>
 
-                <ul class="list-unstyled ts-none">
-                    <li>
-                        <a href="https://jdb443.github.io/">https://jdb443.github.io/</a>
-                    </li>
-                </ul>
+                    <ul class="list-unstyled ts-none">
+                        <li>
+                            <a href="https://jdb443.github.io/">https://jdb443.github.io/</a>
+                        </li>
+                    </ul>
 
-            </div>
-            <!-- Grid column -->
+                </div>
+                <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
 
-                <!-- Links -->
-                <h5 class="text-uppercase">Github</h5>
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Github</h5>
 
-                <ul class="list-unstyled ts-none">
-                    <li>
-                        <a href="https://github.com/jdb443/Burger">Github Repo</a>
-                    </li>
-                </ul>
+                    <ul class="list-unstyled ts-none">
+                        <li>
+                            <a href="https://github.com/jdb443/Burger">Github Repo</a>
+                        </li>
+                    </ul>
 
-            </div>
-            <!-- Grid column -->
+                </div>
+                <!-- Grid column -->
 
             </div>
             <!-- Grid row -->
